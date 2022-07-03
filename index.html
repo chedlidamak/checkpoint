@@ -3,20 +3,21 @@
     <head>
         <meta charset="UTF-8">
         <meta neme="description" content="This is the best website">
+        <link rel="stylesheet" href="styles.css">
         <title>Chedli's Website</title>
     </head>
     <body>
         <div>
             <header>
-                <nav>
-                    <img src="logo.png" height="100"/>
+                <img src="logo.png" height="100"/>
+                <nav style="border: dashed";>
                     <a href="#Home">Home</a>
                     <a href="#About">About</a>
                     <a href="#Work">Work</a>
                     <a href="#Resume">Resume</a>
                     <a href="#Contact">Contact</a>
                 </nav>
-            </header>
+            </header> 
         <hr/> 
         <hr/> 
         <hr/> 
@@ -27,17 +28,17 @@
             <main>
 
                 <!--This is home section-->
-                <a name="Home"><h1><b>Home Section:</b></h1></a>
-                <p> 
+                <a name="Home"><h1 class="subtitle"><b>Home Section:</b></h1></a>
+                <p class="para-text"> 
                     Chedli Damak is a supply chain professional, and a logistics consultant who is passionte about innovation and stratup creation.<br> 
                     Chedli made his success story public via <a href="https://www.facebook.com/TunisnaTV.Officielle/videos/1007314040148615" target="_blank">Tv channels</a>  
                     and <a href="https://www.facebook.com/radiosfax/videos/397563142277993" target="_blank">local radio</a>.<br>
                     If you're an individual or company looking for help optimizing your processess, you are in the right place!
                 </p>
-                <table border="10">
-                    <th><img src="tounesna1.jpg" width="220"></th>
-                    <th><img src="tounesna2.jpeg" width="220"></th>
-                    <th><img src="tounesna3.jpg" width="220"></th>
+                <table class="home-tab">
+                    <th><img src="tounesna1.jpg" width="300"></th>
+                    <th><img src="tounesna2.jpeg" width="300"></th>
+                    <th><img src="tounesna3.jpg" width="300"></th>
                 </table>
 
                 <hr/> 
@@ -47,19 +48,19 @@
                 <hr/>
 
                 <!--This is about section-->
-                <a name="About"><h1><b>About Section:</b></h1></a>
+                <a name="About"><h1 class="subtitle"><b>About Section:</b></h1></a>
                     <p>
                         These are few pieces of content made just for you to understand our mission, vision and values.<br>
                         All of these element are a clarification to make you feel confortable.
                     </p>
 
                     <dl>
-                        <dt><img src="mission.png" width="20"><b><big>Mission Statement:</big></b></dt>
-                        <dd>- The purpose of this website is to give positive vibes to every humain having low and anxious moments</dd>
-                        <dt><img src="vision.png" width="20"><b><big>Vision Statement:</big></b></dt>
+                        <dt class="about-sub"><img src="mission.png" width="20"><b><big>Mission Statement:</big></b></dt>
+                        <dd>- The purpose of this website is to give positive vibes to every humain having low and anxious moments.</dd>
+                        <dt class="about-sub"><img src="vision.png" width="20"><b><big>Vision Statement:</big></b></dt>
                         <dd>- The future can be changed no matter what! JUST BELIEVE</dd>
-                        <dt><img src="values.png" width="20"><b><big>Values:</big></b></dt>
-                        <dd>-Security.Simplicity.Sincerity.Spontaneity.Success-</dd>
+                        <dt class="about-sub"><img src="values.png" width="20"><b><big>Values:</big></b></dt>
+                        <dd>- Security.Simplicity.Sincerity.Spontaneity.Success.</dd>
                      </dl>
 
                  <hr/> 
@@ -69,11 +70,11 @@
                  <hr/>
 
                  <!--This is work section-->
-                <a name="Work"><h1><b>Work Section:</b></h1></a>
+                <a name="Work"><h1 class="subtitle"><b>Work Section:</b></h1></a>
                 <p>
                     Here is a presentation of some of chedli's works during his career and some of his volunteering activities:
                 </p>
-                <table border="5"><h3><b>List of positions:</b></h3>
+                <table border="5"><h3 class="work-sub"><b>List of positions:</b></h3>
                     <tr>
                         <th>Position</th>
                         <th>Company</th>
@@ -98,7 +99,7 @@
                         <td>Sfax</td>
                         <td>4 months</td>
                     </tr>
-                <table border="5"><h3><b>volunteering activities:</b></h3>
+                <table border="5"><h3 class="work-sub"><b>volunteering activities:</b></h3>
                     <tr>
                         <th>Association</th>
                         <th>Location</th>
@@ -130,25 +131,25 @@
                 <hr/>
 
                 <!--This is resume section-->
-                <a name="Resume"><h1><b>Resume Section:</b></h1></a>
+                <a name="Resume"><h1 class="subtitle"><b>Resume Section:</b></h1></a>
                 <p>
-                    This section will contain some bullet points to make easy for readers<br>
-                    For more information you can see all details in <a href="https://www.linkedin.com/in/chedli-damak/" target="_blank">here (linkedin account)</a>
+                    This section will contain some bullet points to make it easy for readers.<br>
+                    For more information you can see all details in <a href="https://www.linkedin.com/in/chedli-damak/" target="_blank">here </a>(linkedin account)
                 </p>
-                <p><h3>Chedli's professional career path in an acendent order:</h3></p>
+                <p><h3 class="resume-sub">Chedli's professional career path in an acendent order:</h3></p>
                 <dl>
-                    <dt><big>Hight School Diploma in Experimental Science:</big></dt>
+                    <dt><big>- Hight School Diploma in Experimental Science:</big></dt>
                     <dd>-Majida Boulila High School, Sfax, 2015</dd>
-                    <dt><big>Applied Licence in Logistics and International Transports:</big></dt>
+                    <dt><big>- Applied Licence in Logistics and International Transports:</big></dt>
                     <dd>-Higher Institut of Tehcnological Studies, Sfax, 2018</dd>
                     <dd>-Project: The implementation of ISO 9001 V 2015 in Shipping Departement</dd>
                     <dd>-Major of the promotion</dd>
-                    <dt><big>Research Masters in Science of Logistics and Supply chain:</big></dt>
+                    <dt><big>- Research Masters in Science of Logistics and Supply chain:</big></dt>
                     <dd>-Higher Institut of Industril Managment, Sfax, 2021</dd>
                     <dd>-Project: The impact of knowledge transfer on innovation towards sustainability in Agri-food supply chain</dd>
                     <dd>-Major of the promotion</dd>
                 </dl>       
-                <table border="10"><h3>--Digital Acievements--</h3>
+                <table border="10"><h3 class="resume-sub">--Digital Acievements--</h3>
                     <tr>
                         <th>Course Name</th>
                         <th>Platemform Used</th>
@@ -180,7 +181,7 @@
                         <td>June 2020</td>
                     </tr>
                 </table>
-                <p>Full certificates list is available <a href="https://www.linkedin.com/in/chedli-damak/details/certifications/" target="_blank">here</a></p>
+                <p class="para-text">- Full certificates list is available <a href="https://www.linkedin.com/in/chedli-damak/details/certifications/" target="_blank">here</a></p>
                 
                 <hr/> 
                 <hr/> 
@@ -189,26 +190,27 @@
                 <hr/>
 
                 <!--This is contact section-->
-                <a name="Contact"><h1><b>Contact Section:</b></h1></a>
+                <a name="Contact"><h1 class="subtitle"><b>Contact Section:</b></h1></a>
 
-                <p><h3>How to find us?</h3></p>
+                <p><h3 class="contact-sub">How to find us?</h3></p>
                     <p>If you have any questions, just fill in the contact form, and we will answer you shortly.</p>
 
-                <p><h3>Headquarters:</h3></p>
+                <p><h3 class="contact-sub">Headquarters:</h3></p>
                     <p>Avenue Yasser Arafet, Immeuble Chaima 1er étage Sousse Sahloul، 4054<br>
                         Website: https://gomycode.tn/ <br> Phone number: 39143900 
                     </p>
-                <p><h3>Support Centre:</h3></p>
+                <p><h3 class="contact-sub">Support Centre:</h3></p>
                     <p>RJHM+RHR, Rue Victor Hugo, Sousse <br> Website: https://www.carrefourtunisie.com/
                     </p>
                 
-                <p><h3>Get in Touch:</h3></p>
+                <p><h3 class="contact-sub">Get in Touch:</h3></p>
                     <div>
                         <input type="text" value="Enter Your Username">
                         <input type="email" value="Email">
                     </div> 
                     <div>
                         <textarea rows="10" cols="30"></textarea value="Your Message">
+                        <button> SEND </button>
                         <p> Before you leave here is a <big><b>BONUS</b></big> to give you more positive <big><b>ENERGY!!!</b></big></p>
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/-GgGqksfd7I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
@@ -232,8 +234,8 @@
                     </tr>
                     <tr>
                         <td><a href="https://www.facebook.com/Le.Chtall">Facobook</a></td>    
-                        <td><a href="https://twitter.com/llechtall">Twitter</a></td>    
                         <td><a href="https://www.instagram.com/llechtall/">Instagram</a></td>    
+                        <td><a href="https://twitter.com/llechtall">Twitter</a></td>    
                         <td><a href="https://www.reddit.com/user/llechtall">Reddit</a></td>    
                     </tr>
                 

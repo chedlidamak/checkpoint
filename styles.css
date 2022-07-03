@@ -1,0 +1,58 @@
+body {
+    background-image: url("https://cdn.wallpapersafari.com/98/36/kg6UY2.png");
+    background-size: cover;
+    font-size: 1.15em;
+    text-align: justify;
+    font-family: 'roboto' , sans-serif;
+}
+
+
+/*Navbar*/
+nav {
+    display:inline;
+    color: #f4976c;
+}
+
+/* All subtitles*/
+.subtitle:hover {
+    color: #366e75;
+}
+
+/*Home section*/
+.home-tab {
+    margin: 80px 40px;
+}
+
+/*About section*/
+.about-sub {
+    color: #08374d;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+}
+
+/*work section*/
+.work-sub {
+    color: #c95f2e;
+    font-style: bold;
+    font-weight: bold;
+    text-decoration: solid;
+}
+
+/*resume section*/
+.resume-sub {
+    color: #141688;
+    font-style: bold;
+    font-weight: bold;
+    text-decoration: solid;
+    text-decoration: underline;
+}
+/*contact section*/
+.contact-sub {
+    color: #2d283e;
+    font-style: bold;
+    font-weight: bold;
+    text-decoration: solid; 
+    border-color: aqua;
+    border-style: inset;
+    width: fit-content;
+}
