@@ -56,3 +56,8 @@ nav {
     border-style: inset;
     width: fit-content;
 }
+/*button*/
+.button-high:hover {
+    color: #366e75;
+    font-size: 22px;
+}
